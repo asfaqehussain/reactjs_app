@@ -1,0 +1,46 @@
+.signup-wrapper {
+  .signup-title {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .learn-more-btn {
+    background-color: red;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0px 15px;
+    font-family: "Times New Roman", Times, serif;
+    width: fit-content;
+    outline: none;
+    border: 0;
+  }
+}
+.input-field {
+    color: #000;
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: 500;
+    line-height: 20px;
+  outline: none;
+  &::placeholder{
+    color: #000;
+  }
+}
+.red-bg-wrapper {
+  background-color: red;
+  justify-content: center;
+  padding: 15px;
+  .red-bg-text {
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
+.input-wrapper {
+  background-color: grey;
+  padding: 15px;
+}
