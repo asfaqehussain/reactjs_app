@@ -11,13 +11,13 @@ import Page3 from './pages/Page4/Page3';
 function App() {
   return (
     <div className='App'>
-      <CustomNavbar/>
+      <CustomNavbar />
       <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Homepage/>} />
-            <Route path="/page2" element={<Page2/>} />
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/page2" element={<Page2 />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

@@ -25,7 +25,7 @@ const Page3 = () => {
       <div className="mt-5">
         <img style={{ width: "100%", height: "380px" }} src={page4BgImg} />
       </div>
-      <Footer/>
+      <Footer />
     </Container>
   );
 };

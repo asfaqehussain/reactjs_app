@@ -18,7 +18,7 @@ const Page2 = () => {
         </div>
         <div className="receipe-wrapper d-flex flex-column">
           {" "}
-          <img style={{ objectFit: "contain" , width: '100%', height: '250px' }} src={receipe2} />
+          <img style={{ objectFit: "contain", width: '100%', height: '250px' }} src={receipe2} />
           <span className="text-center">BACON & PIMENTO CHEESE GRILLED SANDWITCH</span>
         </div>
         <div className="receipe-wrapper d-flex flex-column">
