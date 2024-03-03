@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./index.scss";
 // import Button from "../Button";
-import logo from "../../assets/images/madhviLogo.png";
+import logo from "../../assets/images/logo-with-white-bg.png";
 
 function CustomNavbar() {
   return (

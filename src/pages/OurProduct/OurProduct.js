@@ -1,17 +1,17 @@
 import React from "react";
-import receipes from "../../shared/assets/images/image11.jpeg";
-import receipes1 from "../../shared/assets/images/image16.jpeg";
-import receipes2 from "../../shared/assets/images/image14.jpeg";
+import receipes from "../../shared/assets/images/lassi.jpg";
+import receipes1 from "../../shared/assets/images/mix peda.jpg";
+import receipes2 from "../../shared/assets/images/kalajamun.jpg";
 import receipes3 from "../../shared/assets/images/image12.jpeg";
 import { Container } from "react-bootstrap";
 import "./OurProduct.scss";
 
 const OurProduct = () => {
   const data = [
-    { img: receipes1, label: "" },
-    { img: receipes2, label: "" },
-    { img: receipes3, label: "" },
-    { img: receipes, label: "" },
+    { img: receipes1, label: "Mix Penda" },
+    { img: receipes2, label: "Kala Jamun" },
+    { img: receipes3, label: "Cookies" },
+    { img: receipes, label: "Lassi" },
   ];
   return (
     <div className="d-flex align-items-center justify-content-center">
@@ -28,7 +28,7 @@ const OurProduct = () => {
           </span>
           <div className="overlay"></div>
         </div>
-        <Container className="d-flex align-items-center justify-content-center">
+        <Container className="d-flex align-items-center justify-content-center mb-5">
           <div
             style={{ marginTop: 50, rowGap: 40, columnGap: 20 }}
             className="d-flex flex-wrap justify-content-between"
@@ -50,8 +50,8 @@ const OurProduct = () => {
                     style={{
                       width: 240,
                       height: 240,
-                      objectFit: "contain",
-                      borderRadius: 10,
+                      objectFit: "cover",
+                      borderRadius: 10
                     }}
                   />
                   <div style={{ backgroundColor: " #fff", padding: 20 }}>

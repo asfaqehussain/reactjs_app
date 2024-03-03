@@ -34,7 +34,7 @@ const config = {
   initialMessages: [
     createChatBotMessage(`Hi I'm ${botName}.`),
     createChatBotMessage(
-      "First things first, which airport are you looking for information from?",
+      "Please select the branch you are looking for.",
       {
         widget: "airportSelector",
         delay: 500,
@@ -43,7 +43,7 @@ const config = {
   ],
   state: {
     airports: [],
-    selectedAirport: { iata: "OSL", nameCompact: "Oslo" },
+    selectedAirport: { iata: "OSL", nameCompact: "Palanpur" },
     flightType: "",
     selectedFlightId: "",
     selectedFlight: null,

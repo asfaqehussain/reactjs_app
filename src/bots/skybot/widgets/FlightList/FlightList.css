@@ -17,7 +17,7 @@
 
 .flight-id-header {
   margin-left: 35px;
-  width: 60px;
+  width: 160px;
 }
 
 .flight-airport-header {
@@ -66,7 +66,8 @@
 }
 
 .flight-id {
-  width: 60px;
+  width: 160px;
+  text-align: left;
 }
 
 .flight-list-error {

@@ -16,7 +16,7 @@ const FlightsSelector = (props) => {
 
   return (
     <div>
-      <h1 className="flight-selector-header">Arrival or departure?</h1>
+      <h1 className="flight-selector-header">What type of product are you looking for?</h1>
       <div className="flight-selector-button-container">
         <button
           className="flights-selector-button"

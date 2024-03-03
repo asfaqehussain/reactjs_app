@@ -1,7 +1,49 @@
-.what-we-do{
-    height: 80hv;
-    background-image: url(../../shared/assets/images/bg.jpg);
-    background-position: 100%;
+// .what-we-do{
+//     height: 80hv;
+//     background-image: url(../../shared/assets/images/what_we_do.webp);
+//     background-position: 100%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+.what-we-do {
+    height: 40vh;
+    width: 100%;
+    background-image: url(../../shared/assets/images/what_we_do.webp);
+    background-position: 100% 0%;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    position: relative;
+    padding: 80px 40px 40px 40px;
+    gap: 20px;
+    .all-things-dairy-title {
+      font-size: 50px;
+      font-weight: 700;
+      color: red;
+      z-index: 2;
+    }
+    .all-things-dairy-desc {
+      font-size: 25px;
+      font-weight: 500;
+      width: 70%;
+      color: #fff;
+      z-index: 2;
+    }
+    .overlay {
+      &:after {
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: #000;
+      }
+    }
+  }
+  .receipe-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  }
+  

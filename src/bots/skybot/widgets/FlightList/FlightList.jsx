@@ -34,8 +34,8 @@ const FlightList = ({ flightType, selectedAirport, scrollIntoView }) => {
   return (
     <div className="flight-list-container">
       <div className="flight-header-container">
-        <div className="flight-id-header">FligthId</div>
-        <div className="flight-airport-header">
+        <div className="flight-id-header">Available item names</div>
+        {/* <div className="flight-airport-header">
           <ConditionallyRender
             ifTrue={departure}
             show={<span>To</span>}
@@ -43,7 +43,7 @@ const FlightList = ({ flightType, selectedAirport, scrollIntoView }) => {
           />
         </div>
         <div className="flight-time-header">At</div>
-        <div className="flight-time-gate">Gate</div>
+        <div className="flight-time-gate">Gate</div> */}
       </div>
       <ul className="flight-list">
         {flightSlice.map((flight) => {
@@ -53,20 +53,18 @@ const FlightList = ({ flightType, selectedAirport, scrollIntoView }) => {
                 ifTrue={departure}
                 show={
                   <div className="flight-list-icon-container">
-                    <DepartureFlight className="flightlist-icon" />
+                    {/* <DepartureFlight className="flightlist-icon" /> */}
                   </div>
                 }
                 elseShow={
                   <div className="flight-list-icon-container-arrival">
-                    <ArrivalFlight className="flightlist-icon" />
+                    {/* <ArrivalFlight className="flightlist-icon" /> */}
                   </div>
                 }
               />
 
               <div className="flight-id">{flight.name}</div>
-              <div className="flight-airport">{flight.AirportToOrFrom}</div>
-              <div className="flight-time">{flight.ScheduledTime}</div>
-              <div className="flight-gate">{flight.Gate}</div>
+             
             </li>
           );
         })}

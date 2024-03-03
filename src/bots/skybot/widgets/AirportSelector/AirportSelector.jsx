@@ -10,36 +10,36 @@ const AirportSelector = ({ selectedAirport, setState, actionProvider }) => {
   const airportOptions = [
     {
       iata: "OSL",
-      nameCompact: "Oslo",
+      nameCompact: "Palanpur",
     },
     {
       iata: "BOO",
-      nameCompact: "Bodo",
+      nameCompact: "Mehsana",
     },
     {
       iata: "BGO",
-      nameCompact: "Bergen",
+      nameCompact: "Deesa",
     },
     {
       iata: "KRS",
-      nameCompact: "Kristiansand",
+      nameCompact: "Ahmedabad",
     },
-    {
-      iata: "SVG",
-      nameCompact: "Stavanger",
-    },
-    {
-      iata: "TOS",
-      nameCompact: "Tromso",
-    },
-    {
-      iata: "TRD",
-      nameCompact: "Trondheim",
-    },
-    {
-      iata: "AES",
-      nameCompact: "Alesund",
-    },
+    // {
+    //   iata: "SVG",
+    //   nameCompact: "Stavanger",
+    // },
+    // {
+    //   iata: "TOS",
+    //   nameCompact: "Tromso",
+    // },
+    // {
+    //   iata: "TRD",
+    //   nameCompact: "Trondheim",
+    // },
+    // {
+    //   iata: "AES",
+    //   nameCompact: "Alesund",
+    // },
   ];
 
   useEffect(() => {
@@ -79,7 +79,7 @@ const AirportSelector = ({ selectedAirport, setState, actionProvider }) => {
         show={
           <>
             {" "}
-            <h2 className="airport-selector-heading">Airport</h2>
+            <h2 className="airport-selector-heading">Madhvi Branch</h2>
             <select
               className="airport-selector"
               value={selectedAirport?.iata}
@@ -94,9 +94,9 @@ const AirportSelector = ({ selectedAirport, setState, actionProvider }) => {
         }
         elseShow={
           <>
-            <h2 className="airport-selector-heading">Airport</h2>
+            <h2 className="airport-selector-heading">Madhvi Branch</h2>
             <p>
-              Great! You have chosen this airport: {selectedAirport.nameCompact}
+              Great! You have chosen this branch: {selectedAirport.nameCompact}
             </p>
           </>
         }

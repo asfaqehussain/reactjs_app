@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { ReactComponent as DepartureFlight } from "../../icons/plane-departure.svg";
 import { ReactComponent as ArrivalFlight } from "../../icons/plane-arrival.svg";
 import { ReactComponent as Arrows } from "../../icons/arrows-h.svg";
+import image from '../../../../shared/assets/images/bottle.png'
 
 import { allData, getFlight, getFlightsData } from "../../data/data";
 
@@ -57,47 +58,15 @@ const SingleFlight = ({
     <div className="single-flight-container">
       <div className="single-flight-header">
         <div className="single-flight-icon-container">
-          <ConditionallyRender
-            ifTrue={departure}
-            show={<DepartureFlight className="single-flight-icon" />}
-            elseShow={<ArrivalFlight className="single-flight-icon" />}
-          />
+        <img src={image} alt="My Image" style={{ height: '15px', width: '15px', objectFit:'contain' }} />
         </div>
         <h2 className="single-flight-heading">{selectedFlight.name}</h2>
-        <h3 className="single-flight-airline-heading">
-          {selectedFlight.AirlineName}
-        </h3>
+      
       </div>
 
-      <div className="single-flight-body">
-        <div className="single-flight-transport-container">
-          <span>From {selectedFlight.FromAirportName}</span>
-          <Arrows className="single-flight-transport-icon" />
-          <span>To {selectedFlight.ToAirportName}</span>
-        </div>
-        <div className="single-flight-time-container">
-          <span>Today </span>
-          <span>{selectedFlight.ScheduledTime}</span>
-        </div>
-      </div>
-
-      <ConditionallyRender
-        ifTrue={selectedFlight.Gate}
-        show={
-          <div className="single-flight-status">
-            <div className="single-flight-gate-container">
-              <div className="single-flight-gate-header">Gate</div>
-              <div>{selectedFlight.Gate}</div>
-            </div>
-            <div className="single-flight-status-container">
-              <div className="single-flight-status-header">Status</div>
-              <div>
-                {selectedFlight.GateOrBeltStatus || selectedFlight.Status}
-              </div>
-            </div>
-          </div>
-        }
-      />
+      {/* <img src={selectedFlight.image_url} /> */}
+      <img src={selectedFlight.image_url} alt="My Image" style={{ height: '150px', width: '150px', objectFit:'contain', }} />
+      
     </div>
   );
 };

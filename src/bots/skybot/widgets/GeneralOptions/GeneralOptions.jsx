@@ -5,18 +5,18 @@ import Options from "../Options/Options";
 const GeneralOptions = props => {
   const options = [
     {
-      name: "flights",
+      name: "Product",
       handler: props.actionProvider.handleFlightsChoice,
       id: 1
     },
-    { name: "baggage", handler: props.actionProvider.handleLostLuggage, id: 2 },
+    { name: "Contact Us", handler: props.actionProvider.handleLostLuggage, id: 2 },
+    // {
+    //   name: "parking",
+    //   handler: props.actionProvider.handleParkingOptions,
+    //   id: 3
+    // },
     {
-      name: "parking",
-      handler: props.actionProvider.handleParkingOptions,
-      id: 3
-    },
-    {
-      name: "switch airport",
+      name: "Switch Branch",
       handler: props.actionProvider.handleAirport,
       id: 5
     }

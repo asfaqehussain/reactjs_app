@@ -44,7 +44,7 @@ class ActionProvider {
 
   handleLostLuggage = () => {
     const message = this.createChatBotMessage(
-      "Here's a link to Avinors lost luggage pages.",
+      "Here's a link to contact us pages.",
       {
         widget: "lostLuggageLink",
         loading: true,
@@ -112,7 +112,7 @@ class ActionProvider {
 
   handleFlightTypeChoice = (type) => {
     const message = this.createChatBotMessage(
-      `Thanks. I'll retrieve the next 5 ${type} flights from your chosen airport. If you are searching for a specific flight, try typing in the flightID? (example: SK1423)`,
+      `Thanks. I'll retrieve the ${type} items. If you want details of the item, Show me the details of 'product name'.`,
       {
         loading: true,
         terminateLoading: true,

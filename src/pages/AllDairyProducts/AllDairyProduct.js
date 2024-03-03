@@ -29,7 +29,7 @@ const AllDairyProduct = () => {
           </span>
           <div className="overlay"></div>
         </div>
-        <Container className="d-flex align-items-center justify-content-center">
+        <Container className="d-flex align-items-center justify-content-center mb-5">
           <div
             style={{ marginTop: 50, rowGap: 40, columnGap: 20 }}
             className="d-flex flex-wrap justify-content-between"
@@ -51,7 +51,7 @@ const AllDairyProduct = () => {
                     style={{
                       width: 240,
                       height: 240,
-                      objectFit: "contain",
+                      objectFit: "cover",
                       borderRadius: 10,
                     }}
                   />

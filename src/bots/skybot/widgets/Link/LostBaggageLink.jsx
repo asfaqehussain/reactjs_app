@@ -4,10 +4,10 @@ import Link from "./Link";
 
 const LostBaggageLink = () => {
   const getUrl = () => {
-    return `https://avinor.no/en/airport/practical-information/lost-baggage/`;
+    return `https://www.example.com/contactus`;
   };
 
-  return <Link url={getUrl()} title={"lost baggage on Avinor.no"} />;
+  return <Link url={getUrl()} title={"contact us page."} />;
 };
 
 export default LostBaggageLink;
