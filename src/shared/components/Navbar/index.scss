@@ -2,21 +2,24 @@
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   border-bottom: 1px solid #e0e4ec;
+  position: fixed !important;
+  width: 100%;
+  z-index: 100;
 }
 .bg-body-tertiary {
   background-color: #fff !important;
 }
 .nav-title {
-  color:  #000;
+  color: #000;
   font-size: 0.9375rem;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.25rem; /* 133.333% */
   text-transform: uppercase;
-  font-family: 'Times New Roman', Times, serif;
+  
 }
-.logoTitle{
-  color: rgb(0, 158, 249);
+.logoTitle {
+  color: red;
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
@@ -79,7 +82,7 @@
       }
     }
   }
-  .start-growth-btn-link{
+  .start-growth-btn-link {
     max-width: 256px;
   }
   .mb-signin-button-title {

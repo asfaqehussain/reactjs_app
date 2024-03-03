@@ -1,0 +1,18 @@
+.bottom-footer-main {
+  border-top: 1px solid var(--D8D8FF, #d8d8ff);
+  background: var(--FFFFFF, #fff);
+  .bottom-footer-wrapper {
+    max-width: 1280px;
+    .bottom-footer-link {
+      text-decoration: none;
+      .bottom-footer-text {
+        color: var(--444955, #444955);
+        font-family: Urbanist;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px; /* 157.143% */
+      }
+    }
+  }
+}

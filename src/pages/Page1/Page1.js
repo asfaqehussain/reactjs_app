@@ -1,11 +1,11 @@
 import React from "react";
 import "./Page1.scss";
-import bannerimg from "../../shared/assets/images/image11.jpeg";
+import bannerimg from "../../shared/assets/images/image1.jpeg";
 import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom/dist";
 
 const Page1 = () => {
-  const navigate = useNavigate();
+    const navigate= useNavigate();
   return (
     <Container className="page-eat-it-container">
       <div className="eat-it-title">Eat It Like You Own It</div>
@@ -15,9 +15,9 @@ const Page1 = () => {
           src={bannerimg}
         />
         <div className="favorite-receipe-wrapper d-flex flex-column position-absolute">
-          <span className="favorite-receipe-text">Favorite Butter Receipe</span>
-          <span>Here are some of our most receipes that use classic salted butter</span>
-          <button onClick={() => navigate('/page2')} className="learn-more-btn mt-4 ms-4 ">VIEW COLLECTION</button>
+            <span className="favorite-receipe-text">Favorite Butter Receipe</span>
+            <span>Here are some of our most receipes that use classic salted butter</span>
+            <button onClick={()=>navigate('/page2')} className="learn-more-btn mt-4">VIEW COLLECTION</button>
         </div>
       </div>
     </Container>

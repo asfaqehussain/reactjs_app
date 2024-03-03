@@ -3,29 +3,30 @@
     font-size: 45px;
     font-weight: 800;
     color: red;
-    font-family: "Times New Roman", Times, serif;
+    
     text-transform: uppercase;
     text-align: center;
   }
   .favorite-receipe-wrapper{
     background-color: white;
-    padding: 20px 80px 80px 20px;
-    width: 25%;
+    padding: 40px 40px 40px 40px;
+    width: 35%;
+    text-align: left;
     bottom: 0;
-    right: 100px;
+    right: 15px;
     .favorite-receipe-text{
         font-size: 20px;
         font-weight: 800;
-        font-family: "Times New Roman", Times, serif;
+        
     }
     .learn-more-btn{
         background-color: red;
-        color: #000;
+        color: #fff;
         font-size: 16px;
         font-weight: 600;
         line-height: 25px;
         padding: 10px 15px;
-        font-family: "Times New Roman", Times, serif;
+        border-radius: 8px;
         width: fit-content;
         outline: none;
         border: 0;
