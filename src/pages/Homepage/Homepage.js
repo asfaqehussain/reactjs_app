@@ -23,11 +23,11 @@ import Page3 from "../Page4/Page3";
 import { ReactComponent as ButtonIcon } from "../../shared/assets/icons/robot.svg";
 
 // import config from "../../bots/docsbot/config";
-import config from "../../bots/skybot/config";
+import config from "../../bots/dairybot/config";
 // import MessageParser from "../../bots/docsbot/MessageParser";
-import MessageParser from "../../bots/skybot/MessageParser";
+import MessageParser from "../../bots/dairybot/MessageParser";
 // import ActionProvider from "../../bots/docsbot/ActionProvider";
-import ActionProvider from "../../bots/skybot/ActionProvider";
+import ActionProvider from "../../bots/dairybot/ActionProvider";
 import { useState } from "react";
 import InfinitySlider from "../../shared/components/InfinitySlider/InfinitySlider";
 import Reviews from "../../shared/components/Reviews/Reviews";
@@ -248,7 +248,7 @@ const Homepage = () => {
           <InfinitySlider />
         </div>
       </div>
-      
+
       <div style={{ marginBottom: "100px", marginTop: "100px" }} className="">
         <span className="slider-title">Our Recipes</span>
         <OurRecipes />
@@ -303,17 +303,18 @@ const Homepage = () => {
       <div style={{}} className="">
         <Page3 />
       </div>
-      <div style={{marginTop: '100px'}} className=" farmer-since">
-        <img style={{ width: "100%"}} src={page4BgImg} />
+      <div style={{ marginTop: "100px" }} className=" farmer-since">
+        <img style={{ width: "100%" }} src={page4BgImg} />
         <div class="contentLayer">
-                <h5>Farmer-Owned Since 1921</h5>
-                <p>
-                    In 1921, we formed Minnesota Cooperative Creameries Association with the belief that we&#39;re better when we work together.
-                </p>
-                {/* <a href="/our-company/  "
+          <h5>Farmer-Owned Since 1921</h5>
+          <p>
+            In 1921, we formed Minnesota Cooperative Creameries Association with
+            the belief that we&#39;re better when we work together.
+          </p>
+          {/* <a href="/our-company/  "
            class="button whiteBtn"
            aria-label="Eternal - Learn More">Learn More</a> */}
-            </div>
+        </div>
       </div>
     </>
   );

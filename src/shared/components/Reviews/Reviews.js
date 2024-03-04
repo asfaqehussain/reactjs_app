@@ -1,5 +1,5 @@
 import React from "react";
-import './Reviews.scss';
+import "./Reviews.scss";
 
 const Reviews = () => {
   const data = [
@@ -20,13 +20,13 @@ const Reviews = () => {
       label: "Dhrupal Prajapati",
     },
   ];
-  return (<>
-    
+  return (
+    <>
       {data?.map((item) => {
         return (
           <div className="review-card d-flex flex-column">
             <span className="desc">{item?.desc}</span>
-            <hr style={{width:'100%'}}/>
+            <hr style={{ width: "100%" }} />
             <span className="label">{item?.label}</span>
           </div>
         );

@@ -14,80 +14,80 @@ const InfinitySlider = () => {
     <div className="logos">
       <div className="logos-slide">
         <div className="slider-card">
-          <img src={image1}  />
+          <img src={image1} />
         </div>
         <div className="slider-card">
-          <img src={image2}  />
+          <img src={image2} />
         </div>
         <div className="slider-card">
-          <img src={image3}  />
+          <img src={image3} />
         </div>
         <div className="slider-card">
-          <img src={image4}  />
+          <img src={image4} />
         </div>
         <div className="slider-card">
-          <img src={image5}  />
+          <img src={image5} />
         </div>
         <div className="slider-card">
-          <img src={image6}  />
+          <img src={image6} />
         </div>
         <div className="slider-card">
-          <img src={image7}  />
+          <img src={image7} />
         </div>
         <div className="slider-card">
-          <img src={image8}  />
-        </div>
-      </div>
-      <div className="logos-slide">
-        <div className="slider-card">
-          <img src={image1}  />
-        </div>
-        <div className="slider-card">
-          <img src={image2}  />
-        </div>
-        <div className="slider-card">
-          <img src={image3}  />
-        </div>
-        <div className="slider-card">
-          <img src={image4}  />
-        </div>
-        <div className="slider-card">
-          <img src={image5}  />
-        </div>
-        <div className="slider-card">
-          <img src={image6}  />
-        </div>
-        <div className="slider-card">
-          <img src={image7}  />
-        </div>
-        <div className="slider-card">
-          <img src={image8}  />
+          <img src={image8} />
         </div>
       </div>
       <div className="logos-slide">
         <div className="slider-card">
-          <img src={image1}  />
+          <img src={image1} />
         </div>
         <div className="slider-card">
-          <img src={image2}  />
+          <img src={image2} />
         </div>
         <div className="slider-card">
-          <img src={image3}  />
+          <img src={image3} />
         </div>
         <div className="slider-card">
-          <img src={image4}  />
+          <img src={image4} />
         </div>
         <div className="slider-card">
-          <img src={image5}  />
+          <img src={image5} />
         </div>
         <div className="slider-card">
-          <img src={image6}  />
+          <img src={image6} />
         </div>
         <div className="slider-card">
-          <img src={image7}  />
+          <img src={image7} />
         </div>
         <div className="slider-card">
-          <img src={image8}  />
+          <img src={image8} />
+        </div>
+      </div>
+      <div className="logos-slide">
+        <div className="slider-card">
+          <img src={image1} />
+        </div>
+        <div className="slider-card">
+          <img src={image2} />
+        </div>
+        <div className="slider-card">
+          <img src={image3} />
+        </div>
+        <div className="slider-card">
+          <img src={image4} />
+        </div>
+        <div className="slider-card">
+          <img src={image5} />
+        </div>
+        <div className="slider-card">
+          <img src={image6} />
+        </div>
+        <div className="slider-card">
+          <img src={image7} />
+        </div>
+        <div className="slider-card">
+          <img src={image8} />
         </div>
       </div>
     </div>

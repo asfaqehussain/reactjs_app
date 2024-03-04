@@ -14,7 +14,6 @@ import {
 } from "@mui/material";
 
 const Page3 = () => {
-
   const [openAlert, setOpenAlert] = useState(false);
 
   const handleClickOpen = () => {
@@ -27,11 +26,11 @@ const Page3 = () => {
   return (
     <>
       <Dialog open={openAlert} onClose={handleAlertClose}>
-        <DialogTitle style={{color:'green'}}>{"Submitted Successfully"}</DialogTitle>
+        <DialogTitle style={{ color: "green" }}>
+          {"Submitted Successfully"}
+        </DialogTitle>
 
-        <DialogContentText>
-          
-        </DialogContentText>
+        <DialogContentText></DialogContentText>
 
         <DialogActions>
           <Button onClick={handleAlertClose} autoFocus>

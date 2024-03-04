@@ -11,32 +11,51 @@ import { Container } from "react-bootstrap";
 import "./OurRecipes.scss";
 
 const OurRecipes = () => {
-
-  const data=[
-    {img: receipe1,label:'Classic Pecan Pie Bars'},
-    {img: receipe2,label:'Chocolate Pixies'},
-    {img: receipe3,label:'Birthday Cake'},
-    {img: receipe4,label:'Roasted Cauliflower'},
-    {img: receipe5,label:'Caramel Puff Corn'},
-    {img: receipe6,label:'Classic Peanut Butter Cookies'},
-    {img: receipe7,label:'Bacon and Egg Breakfast Pizza'},
-    {img: receipe8,label:'Clarified Butter'},
-  ]
+  const data = [
+    { img: receipe1, label: "Classic Pecan Pie Bars" },
+    { img: receipe2, label: "Chocolate Pixies" },
+    { img: receipe3, label: "Birthday Cake" },
+    { img: receipe4, label: "Roasted Cauliflower" },
+    { img: receipe5, label: "Caramel Puff Corn" },
+    { img: receipe6, label: "Classic Peanut Butter Cookies" },
+    { img: receipe7, label: "Bacon and Egg Breakfast Pizza" },
+    { img: receipe8, label: "Clarified Butter" },
+  ];
   return (
     <Container className="d-flex align-items-center justify-content-center">
       <div
-        style={{ marginTop: 50 ,rowGap: 40, columnGap: 20 }}
+        style={{ marginTop: 50, rowGap: 40, columnGap: 20 }}
         className="d-flex flex-wrap justify-content-between"
       >
-        {data?.map((item)=>{return(<div className="receipe-card" key={item?.label} style={{padding: 10, backgroundColor: '#fff', width: 280, borderRadius: 10}}>
-          <img
-            src={item?.img}
-            style={{ width: 240, height: 240, objectFit: "contain", borderRadius: 10 }}
-          />
-          <div style={{ backgroundColor: " #fff", padding: 20 }}>
-            <span style={{fontSize: 20, fontWeight: 500}}>{item?.label}</span>
-          </div>
-        </div>)})}
+        {data?.map((item) => {
+          return (
+            <div
+              className="receipe-card"
+              key={item?.label}
+              style={{
+                padding: 10,
+                backgroundColor: "#fff",
+                width: 280,
+                borderRadius: 10,
+              }}
+            >
+              <img
+                src={item?.img}
+                style={{
+                  width: 240,
+                  height: 240,
+                  objectFit: "contain",
+                  borderRadius: 10,
+                }}
+              />
+              <div style={{ backgroundColor: " #fff", padding: 20 }}>
+                <span style={{ fontSize: 20, fontWeight: 500 }}>
+                  {item?.label}
+                </span>
+              </div>
+            </div>
+          );
+        })}
         {/* <img
           src={receipes1}
           style={{ width: 300, height: 300, objectFit: "cover" }}

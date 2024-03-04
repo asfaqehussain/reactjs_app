@@ -51,7 +51,7 @@ const OurProduct = () => {
                       width: 240,
                       height: 240,
                       objectFit: "cover",
-                      borderRadius: 10
+                      borderRadius: 10,
                     }}
                   />
                   <div style={{ backgroundColor: " #fff", padding: 20 }}>

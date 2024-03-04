@@ -13,22 +13,34 @@ const Page2 = () => {
       <div className="d-flex flex-wrap gap-5 justify-content-evenly mt-2">
         <div className="receipe-wrapper d-flex flex-column">
           {" "}
-          <img style={{ objectFit: "contain", width: '100%', height: '250px' }} src={receipe1} />
+          <img
+            style={{ objectFit: "contain", width: "100%", height: "250px" }}
+            src={receipe1}
+          />
           <span className="text-center">MADHVI SPECIAL LASSI</span>
         </div>
         <div className="receipe-wrapper d-flex flex-column">
           {" "}
-          <img style={{ objectFit: "contain" , width: '100%', height: '250px' }} src={receipe2} />
+          <img
+            style={{ objectFit: "contain", width: "100%", height: "250px" }}
+            src={receipe2}
+          />
           <span className="text-center">RAJBHOG SWEET</span>
         </div>
         <div className="receipe-wrapper d-flex flex-column">
           {" "}
-          <img style={{ objectFit: "contain", width: '100%', height: '250px' }} src={receipe3} />
+          <img
+            style={{ objectFit: "contain", width: "100%", height: "250px" }}
+            src={receipe3}
+          />
           <span className="text-center">Cookies</span>
         </div>
         <div className="receipe-wrapper d-flex flex-column">
           {" "}
-          <img style={{ objectFit: "contain", width: '100%', height: '250px' }} src={receipe4} />
+          <img
+            style={{ objectFit: "contain", width: "100%", height: "250px" }}
+            src={receipe4}
+          />
           <span className="text-center">SNICKERDOODLES</span>
         </div>
       </div>

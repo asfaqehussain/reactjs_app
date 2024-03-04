@@ -21,14 +21,13 @@ function CustomNavbar() {
             <Nav.Link style={{ padding: "8px 16px" }} href="/what-we-do">
               <span className="nav-title">WHAT WE DO</span>
             </Nav.Link>
-            
+
             <Nav.Link style={{ padding: "8px 16px" }} href="/our-product">
               <span className="nav-title">OUR PRODUCTS</span>
             </Nav.Link>
             <Nav.Link style={{ padding: "8px 16px" }} href="/all-dairy-product">
               <span className="nav-title">ALL THINGS DAIRY</span>
             </Nav.Link>
-            
           </Nav>
           {/* <Nav.Link className="sign-in-btn-link" href="/signin">
             <button  style={{height: '52px'}}  className="sign-in-btn me-3 fnt-urban mb-signin-button-title">Sign In</button>
